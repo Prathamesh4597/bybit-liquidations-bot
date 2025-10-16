@@ -20,8 +20,8 @@ Ideal for traders, who like to trade based on Bybit liquidaitons.
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/maxser0v/bybit-liquidation-bot
-cd bybit-liquidation-bot
+git clone https://github.com/MaxTraderDev/bybit-liquidations-bot
+cd bybit-liquidations-bot
 
 # 2. Setup environment
 cp .env.example .env
